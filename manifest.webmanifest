@@ -1,0 +1,17 @@
+{
+  "name": "DrRachata AR: Research Tracker",
+  "short_name": "AR Tracker",
+  "description": "ระบบติดตามเส้นทางการทำวิจัยทางการบัญชี 16 สัปดาห์ รายวิชา AC80403 วิทยาระเบียบวิธีวิจัยทางการบัญชี",
+  "lang": "th",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#e9f7f8",
+  "theme_color": "#2f9aa5",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
