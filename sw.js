@@ -1,9 +1,9 @@
 /* DrRachata AR: Research Tracker — service worker
    ทำให้แอปเปิดได้แม้ไม่มีอินเทอร์เน็ต และอัปเดตเป็นเวอร์ชันใหม่อัตโนมัติเมื่อออนไลน์
    เมื่อแก้ไข index.html แล้วอัปโหลดใหม่ ให้เปลี่ยนเลข VERSION ด้านล่างทุกครั้ง */
-const VERSION = 'ar-tracker-v1.0.0';
+const VERSION = 'ar-tracker-v1.0.1';
 const SHELL = ['./', './index.html', './manifest.webmanifest',
-  './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
+  './icon-192.png', './icon-512.png', './apple-touch-icon.png', './favicon-32.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
